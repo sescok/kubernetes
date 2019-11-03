@@ -1,21 +1,21 @@
 Courses
 
-Introduction to Kubernetes (LFS158) - 25h
+Introduction to Kubernetes (LFS158) - 25h - 0%
 https://training.linuxfoundation.org/training/introduction-to-kubernetes/
 
-Cloud Native Certified Kubernetes Administrator (CKA) - 18h
-https://linuxacademy.com/cp/modules/view/id/327?redirect_uri=https://app.linuxacademy.com/search?query=CKA
+Cloud Native Certified Kubernetes Administrator (CKA) - 15,5h - 32%
+https://linuxacademy.com/cp/modules/view/id/327
 
-Kubernetes Deep Dive - 5h - Done
-https://acloud.guru/learn/kubernetes-deep-dive?_ga=2.211049053.991789072.1569539250-571713306.1563176223
+Kubernetes Deep Dive - 5h - 73%
+https://learn.acloud.guru/course/kubernetes-deep-dive/dashboard
 
-Kubernetes Networking Explained: Introduction - 2h 
+Kubernetes Networking Explained: Introduction - 2h - 0%
 https://supergiant.io/blog/kubernetes-networking-explained-introduction/
 
-Cloud Native Devops with Kubernetes Book -4h
+Cloud Native Devops with Kubernetes Book -4h - 0%
 https://learning.oreilly.com/library/view/cloud-native-devops/9781492040750/preface01.html
 
-YAML Essentials -4h
+YAML Essentials -4h - 0%
 https://linuxacademy.com/cp/modules/view/id/276?redirect_uri=https://app.linuxacademy.com/search?query=yaml
 
 58h
@@ -37,6 +37,16 @@ https://medium.com/faun/how-to-pass-certified-kubernetes-administrator-cka-exam-
 
 50h
 
-Links:
+TIP Links:
 
 https://v1-14.docs.kubernetes.io/docs/reference/kubectl/cheatsheet/
+
+https://kubedex.com/7-5-tips-to-help-you-ace-the-certified-kubernetes-administrator-cka-exam/
+
+https://training.linuxfoundation.org/wp-content/uploads/2019/05/Important-Tips-CKA-CKAD-May.pdf
+
+https://docs.google.com/spreadsheets/d/1WPHt0gsb7adVzY3eviMK2W8LejV0I5m_Zpc8tMzl_2w/edit#gid=0
+
+Double ckeck:
+
+https://docs.google.com/spreadsheets/d/10NltoF_6y3mBwUzQ4bcQLQfCE1BWSgUDcJXy-Qp2JEU/edit#gid=0
