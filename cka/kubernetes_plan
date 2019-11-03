@@ -9,7 +9,7 @@ https://linuxacademy.com/cp/modules/view/id/327?redirect_uri=https://app.linuxac
 Kubernetes Deep Dive - 5h - Done
 https://acloud.guru/learn/kubernetes-deep-dive?_ga=2.211049053.991789072.1569539250-571713306.1563176223
 
-Kubernetes Networking Explained: Introduction - 2h - Done
+Kubernetes Networking Explained: Introduction - 2h 
 https://supergiant.io/blog/kubernetes-networking-explained-introduction/
 
 Cloud Native Devops with Kubernetes Book -4h
@@ -36,3 +36,7 @@ Cluster roles - 1h
 https://medium.com/faun/how-to-pass-certified-kubernetes-administrator-cka-exam-on-first-attempt-36c0ceb4c9e
 
 50h
+
+Links:
+
+https://v1-14.docs.kubernetes.io/docs/reference/kubectl/cheatsheet/
