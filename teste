@@ -1,0 +1,26 @@
+apiVersion: v1
+clusters:
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUN5RENDQWJDZ0F3SUJBZ0lCQURBTkJna3Foa2lHOXcwQkFRc0ZBREFWTVJNd0VRWURWUVFERXdwcmRXSmwKY201bGRHVnpNQjRYRFRFNU1UQXdPVEU1TURJMU9Wb1hEVEk1TVRBd05qRTVNREkxT1Zvd0ZURVRNQkVHQTFVRQpBeE1LYTNWaVpYSnVaWFJsY3pDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDQVFvQ2dnRUJBTytOCjE0TTJWNlpDOUxZTVljSmlNdnRiLzFZMWJSakc0YWR6NUQxN3hmT3RZWDduRGs2Sm5UbzNDek82Z3JMcE9BTTUKMnROVDNIaGtVenZ0d1pPNmFTSmlUSnNmeE0yM1RJWDBHeHZKbHZXVE9Wakp2RFFVeE5oNW9LbjIzaDNPaFpwYgpEYU5qZXlZUkNMV2RnOEIwQ1FLQ21obi9hdlJWRVlEOU8rLzE3by85a3MxUjQreENFZVZlS0EzWUcyN2haV29XCnpBbXBaYkRyamxmaE9SQ2JOc3FpVDFkY05sWVpZY2VrblpIMHFvOGpKWEJvSDZhZWxjKzdJUFAvUUlZSVVHdUgKTyt3eXFsN3JzSzdMWVdkOHFtVWp5SDhhL0xTUjhNTW1rNzJmbTZ1Z2xsSTdJR3V0T0pVYWlRMS92WmQ2NDZpQwoxT3o0TExINE1MdGRnQkd0WFJFQ0F3RUFBYU1qTUNFd0RnWURWUjBQQVFIL0JBUURBZ0trTUE4R0ExVWRFd0VCCi93UUZNQU1CQWY4d0RRWUpLb1pJaHZjTkFRRUxCUUFEZ2dFQkFIaFU1WWN5VlBaT213WlpPbU1JNUM5Y09lZSsKVlBCMVpJeHdZaVVaZmg2bDdsc3N6MXN3dUgxREpQanZ6RGJRV2VUYzdoVHIwb0Y4R2ZoQ3liS0twS0FaV01qNAo2aGVwVm5pdkhpZGpFbHNqZm1ZMlVuQmREK1l2NkdOYi9DRkJSai9WcjN0cU4zQ3U0Y1JWbDBzNXh3bkdsQktmCmt2S252YU0rYUNtOFBiM2NFcENISHNtWjVpNGdKalh3SWpnVCtJcnp2cGk5WDErT1JiZXFkREhrYlhWa2ZrSEgKdnRLbXNnN0JTdWE5UmMxSmJkZFVmdmZUQnJrcHczSTFWWWtwR2NUTURGKzVjN2xyUk5WRmNwR3ROa3U4YkNueAp0b0MwdVV3aDRDdTMwbUVISHZQU2dLNHdXbUs1eU5pbWRzenBuZWxyK0VDdzFvZzAxb1JCU1ZyVGlHTT0KLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQo=
+    server: https://AAF1808F94506123B8E108B14C0D0F3D.gr7.us-west-2.eks.amazonaws.com
+  name: arn:aws:eks:us-west-2:683590979119:cluster/windows-cluster
+contexts:
+- context:
+    cluster: arn:aws:eks:us-west-2:683590979119:cluster/windows-cluster
+    user: arn:aws:eks:us-west-2:683590979119:cluster/windows-cluster
+  name: arn:aws:eks:us-west-2:683590979119:cluster/windows-cluster
+current-context: arn:aws:eks:us-west-2:683590979119:cluster/windows-cluster
+kind: Config
+preferences: {}
+users:
+- name: arn:aws:eks:us-west-2:683590979119:cluster/windows-cluster
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1alpha1
+      args:
+      - token
+      - -i
+      - windows-cluster
+      - -r
+      - arn:aws:iam::683590979119:role/service-role/codebuild-BUILD222-service-role
+      command: aws-iam-authenticator
